@@ -1,10 +1,10 @@
 public class Vehicle {
-    public int currentSpeed;    // ✅ Make public
-    public String make;         // ✅ Make public
-    public String model;        // ✅ Make public
+    public int currentSpeed;  
+    public String make;       
+    public String model;      
 
     public int accelerate() {
-        currentSpeed = currentSpeed + 5;
+        currentSpeed += 5;
         return currentSpeed;
     }
 
