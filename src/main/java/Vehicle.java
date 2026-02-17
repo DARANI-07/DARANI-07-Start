@@ -3,12 +3,12 @@ public class Vehicle {
     String make;
     String model;
 
-    int accelerate(){
+    public int accelerate() {
         currentSpeed = currentSpeed + 5;
         return currentSpeed;
     }
 
-    String honk(){
+    public String honk() {
         return "HONNNK";
     }
 }
