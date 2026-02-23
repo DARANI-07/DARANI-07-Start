@@ -1,7 +1,9 @@
+package org.revature;
+
 public class Vehicle {
-    private int currentSpeed;  
-    private String make;       
-    private String model;      
+    private int currentSpeed;
+    private String make;
+    private String model;
 
     // Constructor (optional but good practice)
     public Vehicle(String make, String model) {
