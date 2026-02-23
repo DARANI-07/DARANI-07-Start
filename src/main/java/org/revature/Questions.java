@@ -1,3 +1,5 @@
+package org.revature;
+
 public class Questions {
 
     // Q1: How many variables are in Vehicle class? Return exact integer
