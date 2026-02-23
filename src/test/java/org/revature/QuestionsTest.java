@@ -27,4 +27,11 @@ public class QuestionsTest {
         String actualResult = q.question3();
         Assert.assertEquals(expectedResult, actualResult); // no lowerCase/trim
     }
+
+    @Test
+    public void testQuestion4() {
+        String expectedResult = "int"; // accelerate() returns int
+        String actualResult = q.question4();
+        Assert.assertEquals(expectedResult, actualResult);
+    }
 }

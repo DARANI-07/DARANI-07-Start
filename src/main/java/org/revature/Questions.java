@@ -16,4 +16,10 @@ public class Questions {
     public String question3() {
         return "String"; // Capital S because portal expects exact type
     }
+
+    // Q4: What is the return type of the accelerate() method in Vehicle? Return
+    // exact string
+    public String question4() {
+        return "int"; // accelerate() returns an int
+    }
 }
